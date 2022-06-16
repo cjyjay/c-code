@@ -1,0 +1,5 @@
+strlen计算字符串长度时候，不会计算/0,siseof会计算，比如int arr【】={abc}，strlen（arr）=3，sizeof（arr）=4；
+逻辑条件时，不能18<=age<28,会先代入左边，比如age=10，代入左边<=18为假，0<28为真；整个为真，应该（age>18&&age<28）;
+==逻辑等于判断，不要与=混淆，字符串的比较要用strcmp，不能用=；
+break；紧跟循环跳出，continue是忽略后面语句继续循环；
+二分法算法，left=0；right=strlen（）-1;while(left=right); left++;right--;一般用于寻找； 
